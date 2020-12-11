@@ -1,6 +1,6 @@
 div{
     text-align:center;
-    font-size:40px;
+    font-size:30px;
     font-family:cursive;  
     color:white;
 }
@@ -42,6 +42,8 @@ background-image: grey;
     align-items:center;
     justify-items:center;
     opacity:0.9;
+    background-color:coral;
+    
   
 }
 .discography{
@@ -65,15 +67,12 @@ background-image: grey;
 
 
 #image{
-    width: 33vw;
-    height:33vw;
+    width: 34.5vw;
+    height:34.5vw;
     opacity:0.78;
    
 }       
-            #main{
-              
             
-            }
             
             #image-caption{
             text-align:center
@@ -88,9 +87,9 @@ background-image: grey;
       }
      
      #disco{
-        
-        width: 20vw;
-        height:20vw;
+    
+        width: 22.5vw;
+        height:22.5vw;
      }
 
     .fa{
