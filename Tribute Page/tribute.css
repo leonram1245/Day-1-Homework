@@ -4,14 +4,23 @@ div{
     font-family:cursive;  
     color:white;
 }
+div>.fa{
+    text-align:center;
+    font-size:40px; 
+    color:white;
+}
+html{
+    height:100%;
+}
 h1{
     color:white;
     letter-spacing:20px;
     font-family:fantasy;
+    text-shadow:4px 4px black;
 }
 h2{
     color:white;
-    
+    font-size:30px;
     font-family:cursive;
 }
 
@@ -28,8 +37,8 @@ h2{
   }
 body{
     background-color: #485461;
-background-image: grey;
-   color:whitesmoke;
+
+   
 }
 #img-div{
     
@@ -41,9 +50,11 @@ background-image: grey;
     margin-right:auto;
     align-items:center;
     justify-items:center;
-    opacity:0.9;
-    background-color:coral;
-    
+    opacity:1;
+    border:5px solid peachpuff;
+    background-color:grey;
+    border-radius:5px; 
+       
   
 }
 .discography{
@@ -53,12 +64,16 @@ background-image: grey;
 }
 
 #tribute-info{
- 
- justify-content: center;
- text-align:left;
- line-height:1.5em;
  margin-left:10vw;
  margin-right:10vw;
+ justify-content: center;
+ text-align:left;;
+ line-height:1.5em;
+ opacity:0.8;
+ border: 5px solid lightblue;
+ border-radius:15px;
+ background:grey;
+ 
  
  
  
@@ -70,6 +85,7 @@ background-image: grey;
     width: 34.5vw;
     height:34.5vw;
     opacity:0.78;
+    border-radius:50px;
    
 }       
             
@@ -86,10 +102,33 @@ background-image: grey;
           
       }
      
-     #disco{
+     #disco1{
     
         width: 22.5vw;
         height:22.5vw;
+        border:3px solid yellow;
+        border-radius:25px;
+     }
+     #disco2{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid green;
+        border-radius:25px;
+     }
+     #disco3{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid blue;
+        border-radius:25px;
+     }
+     #disco4{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid red;
+        border-radius:25px;
      }
 
     .fa{
@@ -97,6 +136,7 @@ background-image: grey;
   text-align: center;
   justify-content:center;
   text-decoration: none;
+  
   
 
     }
@@ -121,5 +161,3 @@ background-image: grey;
         color: white;
     
      } 
-
-     
